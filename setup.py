@@ -22,7 +22,7 @@ fp.close()
 version = VERSION
 
 requirements = []
-tests_requirements = requirements + open('test-requirements.txt').readlines()
+tests_requirements = ['nose', 'tornado']
 
 setup(name='urllib3',
       version=version,
